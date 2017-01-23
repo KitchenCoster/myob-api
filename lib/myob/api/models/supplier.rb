@@ -1,9 +1,9 @@
 module Myob
   module Api
     module Model
-      class Customer < Base
+      class Supplier < Base
         def model_route
-          'Contact/Customer'
+          'Contact/Supplier'
         end
       end
     end
