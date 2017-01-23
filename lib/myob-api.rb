@@ -27,6 +27,8 @@ require 'myob/api/models/payroll_category'
 require 'myob/api/models/wage'
 require 'myob/api/models/entitlement'
 
+require 'myob/api/models/tax_code'
+
 require 'myob/api/models/timesheet'
 
 require 'myob/api/models/general_ledger'
