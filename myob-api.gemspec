@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["david@davidlumley.com.au"]
   spec.description   = %q{MYOB AccountRight Live API V2}
   spec.summary       = %q{MYOB AccountRight Live API V2}
-  spec.homepage      = "https://github.com/davidlumley/myob-api"
+  spec.homepage      = "https://github.com/KitchenCoster/myob-api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
