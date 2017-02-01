@@ -5,7 +5,7 @@ require 'myob/api/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "myob-api"
-  spec.version       = 5.7
+  spec.version       = 5.8
   spec.authors       = ["David Lumley"]
   spec.email         = ["david@davidlumley.com.au"]
   spec.description   = %q{MYOB AccountRight Live API V2}
