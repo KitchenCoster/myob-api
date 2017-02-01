@@ -8,6 +8,8 @@ require 'myob/api/models/company'
 
 require 'myob/api/models/current_user'
 
+require 'myob/api/models/debit_refund'
+
 require 'myob/api/models/contact'
 require 'myob/api/models/supplier'
 require 'myob/api/models/customer'
