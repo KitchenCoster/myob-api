@@ -1,9 +1,9 @@
 module Myob
   module Api
     module Model
-      class Bill < Base
+      class Item < Base
         def model_route
-          'Purchase/Bill'
+          'Purchase/Bill/Item'
         end
       end
     end
