@@ -1,7 +1,7 @@
 module Myob
   module Api
     module Model
-      class OrderItem < Base
+      class OrderMiscellaneous < Base
         def model_route
           'Purchase/Order/Miscellaneous'
         end
