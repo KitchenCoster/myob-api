@@ -26,6 +26,7 @@ require 'myob/api/models/invoice_item'
 require 'myob/api/models/order_item'
 require 'myob/api/models/order_miscellaneous'
 require 'myob/api/models/bill_item'
+require 'myob/api/models/bill_miscellaneous'
 
 require 'myob/api/models/payroll_category'
 require 'myob/api/models/wage'
