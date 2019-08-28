@@ -47,15 +47,13 @@ module Myob
           # if token is blank assume we are using federated login - http://myobapi.tumblr.com/post/109848079164/2015-1-release-notes
           {
             'x-myobapi-key'     => @consumer[:key],
-            'x-myobapi-version' => 'v2',
-            'Content-Type'      => 'application/json'
+            'x-myobapi-version' => 'v2'
           }
         else
           {
             'x-myobapi-key'     => @consumer[:key],
             'x-myobapi-version' => 'v2',
-            'x-myobapi-cftoken' => token,
-            'Content-Type'      => 'application/json'
+            'x-myobapi-cftoken' => token
           }
         end
       end
